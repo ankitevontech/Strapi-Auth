@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mainmenus",
+  "info": {
+    "singularName": "mainmenu",
+    "pluralName": "mainmenus",
+    "displayName": "mainmenu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainmenu": {
+      "type": "string"
+    }
+  }
+}

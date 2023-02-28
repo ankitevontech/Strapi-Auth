@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabledatas",
+  "info": {
+    "singularName": "stabledata",
+    "pluralName": "tabledatas",
+    "displayName": "tabledata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
